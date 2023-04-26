@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gender prediction</title>
+</head>
+<body>
+
+<hr>
+<form method="post">
+    {{ form.csrf_token() }}
+    {{ form.Age.label }}{{ form.Age }} <br>
+    {{ form.Height.label }}{{ form.Height }} <br>
+    {{ form.Weight.label }}{{ form.Weight }} <br>
+    {{ form.Occupation.label }}{{ form.Occupation }} <br>
+    {{ form.Education_Level.label }}{{ form.Education_Level }} <br>
+    {{ form.Marital_Status.label }}{{ form.Marital_Status }} <br>
+    {{ form.Income.label }}{{ form.Income }} <br>
+    {{ form.Favorite_Color.label }}{{ form.Favorite_Color }} <br>
+    {{ form.submit}} <br>
+</form>
+
+</body>
+</html>
